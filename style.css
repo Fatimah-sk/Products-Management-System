@@ -89,3 +89,41 @@ table th{
 table th,td{
     padding: 5px;
 }
+
+
+#loadDemo {
+    width: 100%;
+    height: 30px;
+    margin: 10px 0 12px;
+    background: #9234a8;
+    color: white;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+#loadDemo:hover {
+    background: #b34bc8;
+    letter-spacing: 1px;
+}
+
+
+
+.form-actions {
+    display: flex;
+    gap: 10px;
+    margin: 8px 0;
+}
+
+.form-actions button {
+    flex: 1;
+    min-width: 0;
+}
+
+#cancelUpdate {
+    background: #555;
+}
+
+#cancelUpdate:hover {
+    background: #777;
+}
+

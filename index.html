@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PMS</title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
 </head>
@@ -25,10 +25,17 @@
             </div>
             <input type="number" id="count" placeholder="Count">
             <input type="text" id="category" placeholder="Category">
+
+        <div class="form-actions">
             <button id="submit">Create</button>
-        </div>
+            <button id="cancelUpdate" style="display: none;">Cancel</button>
+        </div>        
+    </div>
 
         <div class="outputs">
+            
+            <button id="loadDemo">Load Demo Products</button>
+
             <div class="searchBlock">
                 <input onkeyup="searchData(this.value)" type="text" id="search" placeholder="Search">
                 <div class="btnsearch">
@@ -60,6 +67,7 @@
                 <tbody id="tBody">
                     <!-- Table rows will be dynamically inserted here -->
                 </tbody>
+            </table>
         </div>
     </div>
     
